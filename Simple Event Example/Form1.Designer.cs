@@ -33,11 +33,12 @@
             // 
             // btnClickMe
             // 
+            btnClickMe.Dock = DockStyle.Bottom;
             btnClickMe.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnClickMe.ForeColor = Color.Red;
-            btnClickMe.Location = new Point(212, 109);
+            btnClickMe.Location = new Point(0, 252);
             btnClickMe.Name = "btnClickMe";
-            btnClickMe.Size = new Size(380, 198);
+            btnClickMe.Size = new Size(800, 198);
             btnClickMe.TabIndex = 0;
             btnClickMe.Text = "Click Me";
             btnClickMe.UseVisualStyleBackColor = true;
@@ -49,6 +50,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(btnClickMe);
+            MinimumSize = new Size(300, 200);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Simple Event Example";
